@@ -134,3 +134,7 @@ customLaunchers:{
 
 ## O USAR EL SIGUIENTE COMANDO
 ng test --no-watch --no-progress --browsers=ChromeHeadless
+
+
+## BUILD PARA SUBIR EN PAGE DE GITHUB
+ng build --output-path docs --base-href /services_construct_web/
