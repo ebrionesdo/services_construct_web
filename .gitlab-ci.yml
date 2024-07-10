@@ -1,0 +1,58 @@
+stages:
+  - install
+  - build
+  - test
+  - deploy
+
+variables:
+  NODE_ENV: 'production'
+  NPM_CACHE_FOLDER: "$CI_PROJECT_DIR/.npm"
+  ANGULAR_CLI_VERSION: "183.0.7"  # Ajusta esto según la versión de Angular CLI que estés usando
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .npm
+
+before_script:
+  - npm ci
+  - npx npm@6 cache verify
+
+install:
+  stage: install
+  script:
+    - npm install
+  artifacts:
+    paths:
+      - node_modules/
+
+build:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - main  # Ajusta esto según la rama que desees
+
+test:
+  stage: test
+  script:
+    - npm run test -- --watch=false --browsers=ChromeHeadless
+  artifacts:
+    when: always
+    paths:
+      - test-reports
+    reports:
+      junit: test-reports/junit.xml
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying to production server..."
+    # Aquí puedes añadir los comandos para desplegar tu aplicación
+  only:
+    - main  # Ajusta esto según la rama que desees
+
