@@ -14,6 +14,9 @@ export class AppComponent implements OnInit {
   protected servicios:any[] = [];
   protected proyectos:any[] = [];
 
+  protected correo = 'maximoedu_69@hotmail.com';
+  protected linkWhatsapp = 'https://wa.me/0992746878';
+
   ngOnInit(): void {
       this.banner = "./assets/estructuras.jpg";
       this.servicios = [...serviciosData];
@@ -40,7 +43,7 @@ const serviciosData = [
       {subtitulo:'Diseño de carreteras y autopistas', desc:'Planificación y diseño de sistemas de transporte, incluyendo carreteras, autopistas y ferrocarriles.'},
       {subtitulo:'Diseño de sistemas hidráulicos', desc:'Diseño de sistemas de suministro de agua, alcantarillado, y gestión de aguas pluviales.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Design_construct.jpg'
   },
   {
     titulo:'Consultoría y Asesoría',
@@ -50,7 +53,7 @@ const serviciosData = [
       {subtitulo:'Estudios de viabilidad', desc:'Evaluación de la viabilidad técnica y económica de proyectos potenciales.'},
       {subtitulo:'Asesoría en normativas y regulaciones', desc:'Asistencia en el cumplimiento de las normativas y regulaciones locales y nacionales.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Consultoria_Asesoria.jpg'
   },
   {
     titulo:'Construcción y Supervisión',
@@ -59,7 +62,7 @@ const serviciosData = [
       {subtitulo:'Gestión de la construcción', desc:'Planificación, coordinación y control de los recursos para llevar a cabo el proyecto de construcción.'},
       {subtitulo:'Control de calidad', desc:'Aseguramiento de la calidad en los materiales y procesos de construcción.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Construccion_Supervision.jpg'
   },
   {
     titulo:'Estudios y Análisis',
@@ -68,7 +71,7 @@ const serviciosData = [
       {subtitulo:'Análisis estructural', desc:'Evaluación de la integridad y capacidad de carga de estructuras existentes y nuevas'},
       {subtitulo:'Estudios ambientales', desc:'Evaluación del impacto ambiental de proyectos de construcción e infraestructura.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Estudio_Analisis.jpg'
   },
   {
     titulo:'Infraestructura de Transporte',
@@ -77,7 +80,7 @@ const serviciosData = [
       {subtitulo:'Diseño de aeropuertos', desc:'Planificación y diseño de instalaciones aeroportuarias.'},
       {subtitulo:'Diseño de puertos y marinas', desc:'Diseño de instalaciones para el transporte marítimo y recreativo.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Infraestructura_Transporte.jpg'
   },
   {
     titulo:'Sistemas de Servicios Públicos',
@@ -86,7 +89,7 @@ const serviciosData = [
       {subtitulo:'Diseño de sistemas de alcantarillado', desc:'Desarrollo de infraestructuras para el manejo de aguas residuales.'},
       {subtitulo:'Diseño de redes de energía', desc:'Planificación de sistemas de distribución de electricidad y gas.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Alcantarillado.jpg'
   },
   {
     titulo:'Rehabilitación y Mantenimiento',
@@ -94,7 +97,7 @@ const serviciosData = [
       {subtitulo:'Rehabilitación de estructuras', desc:'Evaluación y refuerzo de estructuras existentes para prolongar su vida útil.'},
       {subtitulo:'Mantenimiento de infraestructuras', desc:'Planificación y ejecución de programas de mantenimiento para infraestructuras públicas y privadas.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Mantenimiento.jpg'
   },
   {
     titulo:'Innovación y Sostenibilidad',
@@ -102,7 +105,7 @@ const serviciosData = [
       {subtitulo:'Implementación de tecnologías verdes', desc:'Incorporación de tecnologías sostenibles en proyectos de construcción e infraestructura.'},
       {subtitulo:'Diseño de edificios sostenibles', desc:'Creación de estructuras que minimicen el impacto ambiental y maximicen la eficiencia energética.'},
     ],
-    imagen:'./assets/Ingenieria-Civil.png'
+    imagen:'./assets/Innovacion.jpg'
   },
 ]
 
