@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   protected servicios:any[] = [];
   protected proyectos:any[] = [];
 
-  protected correo = 'maximoedu_69@hotmail.com';
+  protected correo = 'contacto@construciv-services.com';
   protected linkWhatsapp = 'https://wa.me/0992746878';
 
   ngOnInit(): void {
