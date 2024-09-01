@@ -111,36 +111,67 @@ const serviciosData = [
 
 const proyectosData = [
   {
-    titulo:'Diseño y Planificación',
-    imagen:'./assets/architecture-puente.jpg'
+    titulo:'Cimentaciones',
+    imagen:'./assets/trabajos/cimentacion1.jpg'
   },
   {
-    titulo:'Consultoría y Asesoría',
-
-    imagen:'./assets/south-africa-via.jpg'
+    titulo:'Cimentaciones',
+    imagen:'./assets/trabajos/cimentacion2.jpg'
   },
   {
-    titulo:'Construcción y Supervisión',
-    imagen:'./assets/hamburg-puiente.jpg'
+    titulo:'Losa',
+    imagen:'./assets/trabajos/losa4.jpg'
   },
   {
-    titulo:'Estudios y Análisis',
-    imagen:'./assets/zhuhai-via.jpg'
+    titulo:'Losa',
+    imagen:'./assets/trabajos/losa1.jpg'
   },
   {
-    titulo:'Infraestructura de Transporte',
-    imagen:'./assets/architecture-puente.jpg'
+    titulo:'Losa',
+    imagen:'./assets/trabajos/losa2.jpg'
   },
   {
-    titulo:'Sistemas de Servicios Públicos',
-    imagen:'./assets/zhuhai-via.jpg'
+    titulo:'Losa',
+    imagen:'./assets/trabajos/losa3.jpg'
   },
   {
-    titulo:'Rehabilitación y Mantenimiento',
-    imagen:'./assets/hamburg-puiente.jpg'
+    titulo:'Acabados',
+    imagen:'./assets/trabajos/piso1.jpg'
   },
   {
-    titulo:'Innovación y Sostenibilidad',
-    imagen:'./assets/architecture-puente.jpg'
+    titulo:'Acabados',
+    imagen:'./assets/trabajos/piso2.jpg'
+  },
+  {
+    titulo:'Acabados',
+    imagen:'./assets/trabajos/meson1.jpg'
+  },
+  {
+    titulo:'Acabados',
+    imagen:'./assets/trabajos/fachada1.jpg'
+  },
+  {
+    titulo:'Acabados',
+    imagen:'./assets/trabajos/acabado1.jpg'
+  },
+  {
+    titulo:'Escalera',
+    imagen:'./assets/trabajos/escalera2.jpg'
+  },
+  {
+    titulo:'Escalera',
+    imagen:'./assets/trabajos/escalera3.jpg'
+  },
+  {
+    titulo:'Regios',
+    imagen:'./assets/trabajos/regio1.jpg'
+  },
+  {
+    titulo:'Regios',
+    imagen:'./assets/trabajos/regio2.jpg'
+  },
+  {
+    titulo:'Regios',
+    imagen:'./assets/trabajos/regio3.jpg'
   },
 ]

@@ -125,19 +125,19 @@
 
   <section id="proyectos" class="w-full h-full bg-white mb-16">
     <div class="text-center text-primarycolor text-4xl md:text-6xl py-12 font-medium">
-      <span class="border-b-8 border-secondarycolor" style="line-height: 25px; font-weight: 700;">PROYECTOS</span>
+      <span class="border-b-8 border-secondarycolor" style="line-height: 25px; font-weight: 700;">TRABAJOS REALIZADOS</span>
     </div>
 
     <div class="container mx-auto px-10 md:px-0">
       <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
         @for (proyecto of proyectos; track proyecto) {
-          <div class="overflow-hidden rounded-2xl flex justify-center border border-gray-300 hover:shadow-md hover:shadow-secondarycolor/50 ">
+          <div class="overflow-hidden h-60 rounded-2xl flex justify-center border border-gray-300 hover:shadow-md hover:shadow-secondarycolor/50 ">
             <div class="flex-col w-full">
               <div class="relative flex justify-start">
                 <img [src]="proyecto.imagen" class="rounded-b-2xl object-cover w-full h-full" alt="Imagen-proyecto">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-b-2xl opacity-0 hover:opacity-100 transition-opacity duration-300">
                   <div class="absolute bottom-0 left-0 right-0 text-start px-6 pb-5">
-                    <p class="text-lg font-semibold text-white">{{ proyecto.titulo }}</p>
+                    <!-- <p class="text-lg font-semibold text-white">{{ proyecto.titulo }}</p> -->
                   </div>
                 </div>
               </div>
